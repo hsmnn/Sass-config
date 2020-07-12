@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-e": "sass --watch ./assets/sass/main.scss:./assets/css/application.css --style expanded",
+    "sass-c": "sass --watch ./assets/sass/main.scss:./assets/css/application.css --style compressed",
+    "prefix": "postcss ./assets/css/application.css --use autoprefixer -d .assets/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hausmanne/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hausmanne/portfolio/issues"
+  },
+  "homepage": "https://github.com/hausmanne/portfolio#readme",
+  "browserslist": "last 4 versions",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.26.8"
+  }
+}
