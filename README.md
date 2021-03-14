@@ -1,7 +1,10 @@
 # Sass config
 - Editor : VSCode
 - OS : Windows 10
- 
+
+## Live Sass Compiler
+If you use VSCode, you can install the ["Live Sass Compiler"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) extension to compile your SASS or SCSS file to CSS files.
+
 ## Install Sass
 To install Sass you can follow the steps on this site : https://sass-lang.com/install  
 I personnaly use Node.js so i installed Sass by typing this command :  
