@@ -55,6 +55,14 @@ Here are the seven directories :
 
 To import a file in the "main.scss" file, use the command `@import "./utils/folderName";`
 
+## BEM name method
+- Block :
+blocks are named according to their role.
+- Element :
+elements indicate the name of their parent block, followed by a double underscore/dunder (__) and then the role of the element: form__label.
+- Modificator :
+use the name of the block or element they modify, followed by two dashes (--) and what the selector modifies: button--green.
+
 Source : https://openclassrooms.com/fr/courses/6106181-simplifiez-vous-le-css-avec-sass/6599201-utilisez-le-systeme-7-1-pour-une-codebase-plus-simple-a-gerer
 
 In this GitHub repository you will find a batch script to create a folder tree with the 7-1 directories system integrated.
